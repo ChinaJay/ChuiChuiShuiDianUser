@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="barcolor" >#2a2a32</color>
+    <color name="white" >#FFFFFF</color>
+    <color name="_999color" >#999999</color>
+    <color name="_ccccolor" >#cccccc</color>
+    <color name="_32a8e0" >#32a8e0</color>
+    <color name="_33a7e0" >#33a7e0</color>
+    <color name="_b5b5b5" >#b5b5b5</color>
+    <color name="_757575" >#757575</color>
+    <color name="_29b4fc" >#29b4fc</color>
+    <color name="_eeeeee">#EEEEEE</color>
+</resources>

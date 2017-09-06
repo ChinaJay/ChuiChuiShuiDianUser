@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <include layout="@layout/pub_header"/>
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/et_money"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@null"
+            android:hint="手机号"
+            android:paddingBottom="2dp"
+            android:paddingLeft="10dp"
+            android:inputType="number"
+            android:textColorHint="@color/_b5b5b5"
+            android:textSize="14sp" />
+        <View
+            android:layout_below="@id/et_money"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/_ccccolor"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/ed_email"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@null"
+            android:hint="验证码"
+            android:paddingBottom="2dp"
+            android:paddingLeft="10dp"
+            android:inputType="number"
+            android:textColorHint="@color/_b5b5b5"
+            android:textSize="14sp" />
+        <View
+            android:layout_below="@id/ed_email"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/_ccccolor"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发送验证码"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="35dp"
+            android:textColor="@color/_33a7e0"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/et_pass"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@null"
+            android:hint="新密码"
+            android:paddingBottom="2dp"
+            android:paddingLeft="10dp"
+            android:inputType="number"
+            android:textColorHint="@color/_b5b5b5"
+            android:textSize="14sp" />
+        <View
+            android:layout_below="@id/et_pass"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/_ccccolor"/>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/background_5"
+        android:text="提交"
+        android:textColor="@color/white"
+        android:textSize="32px"/>
+
+</LinearLayout>

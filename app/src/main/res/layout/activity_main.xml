@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+    >
+    <RadioGroup
+        android:id="@+id/yg_tab_bar"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:paddingTop="2dp"
+            android:layout_height="50dp"
+            android:drawablePadding="2dp"
+            android:paddingBottom="3dp"
+            android:background="@color/white"
+            android:id="@+id/first"
+            style="@style/tab_menu_item"
+            android:drawableTop="@drawable/tab_menu_better"
+            android:text="首页"
+            android:textSize="10sp"/>
+
+        <RadioButton
+            android:paddingTop="2dp"
+            android:layout_height="50dp"
+            android:drawablePadding="2dp"
+            android:paddingBottom="3dp"
+            style="@style/tab_menu_item"
+            android:id="@+id/yg_channel"
+            android:drawableTop="@drawable/tab_1"
+            android:textSize="10sp"
+            android:text="商城" />
+
+        <RadioButton
+            android:paddingTop="7dp"
+            android:layout_height="50dp"
+            style="@style/tab_menu_item_1"
+            android:drawableTop="@drawable/tab_2"
+            android:drawablePadding="3dp"
+            android:textSize="10sp"
+            android:text="发布" />
+
+        <RadioButton
+            android:paddingBottom="3dp"
+            android:id="@+id/yg_message"
+            style="@style/tab_menu_item"
+            android:layout_height="50dp"
+            android:drawablePadding="2dp"
+            android:drawableTop="@drawable/tab_2"
+            android:paddingTop="2dp"
+            android:text="购物车"
+            android:textSize="10sp"/>
+
+        <RadioButton
+            android:paddingTop="2dp"
+            android:paddingBottom="3dp"
+            android:layout_height="50dp"
+            android:drawablePadding="2dp"
+            style="@style/tab_menu_item"
+            android:id="@+id/yg_better_2"
+            android:drawableTop="@drawable/tab_3"
+            android:textSize="10sp"
+            android:text="我的" />
+
+    </RadioGroup>
+
+    <View
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:id="@+id/div_tab_bar"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/_eeeeee" />
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/tb_fabu"
+        />
+
+    <com.hwd.chuichuishuidianuser.view.IndexViewpager
+        android:id="@+id/yg_vpager"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/yg_tab_bar"
+        />
+</RelativeLayout>
